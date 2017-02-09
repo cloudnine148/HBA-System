@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="2. Detection">
+      <UniqueIdentifier>{13a6ec3a-d202-4737-9e5f-14bc69205fac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. pairing">
+      <UniqueIdentifier>{011b30df-1a4f-44ab-beef-d7a75d6d2ced}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4.Tracking">
+      <UniqueIdentifier>{77761aca-07aa-4296-b6c8-9c3de90d680a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. RandomFern">
+      <UniqueIdentifier>{328e5aa4-9005-4059-beac-5245d58dcdc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="6. RandomForest">
+      <UniqueIdentifier>{a3fdb8e7-2e4f-485b-8a86-4fbebb22a7f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7. Wavelet">
+      <UniqueIdentifier>{a9fe8b34-f2b0-485a-9469-496f65e6a289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="8. ROISetting">
+      <UniqueIdentifier>{850deed2-b9b1-46ce-84df-de8e2de61b1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="0. Dib">
+      <UniqueIdentifier>{39528e9e-0615-4823-97d2-826c3fe44984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Binarization">
+      <UniqueIdentifier>{4e9179c0-4006-401d-88e6-ad43d4e06f01}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="video.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="videoDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Avi.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="RGBBYTE.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GCD.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Dib.h">
+      <Filter>0. Dib</Filter>
+    </ClInclude>
+    <ClInclude Include="DibColor.h">
+      <Filter>0. Dib</Filter>
+    </ClInclude>
+    <ClInclude Include="DibEnhancement.h">
+      <Filter>0. Dib</Filter>
+    </ClInclude>
+    <ClInclude Include="Detection.h">
+      <Filter>2. Detection</Filter>
+    </ClInclude>
+    <ClInclude Include="Pairing.h">
+      <Filter>3. pairing</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracker.h">
+      <Filter>4.Tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracking.h">
+      <Filter>4.Tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomFern.h">
+      <Filter>5. RandomFern</Filter>
+    </ClInclude>
+    <ClInclude Include="Matching.h">
+      <Filter>4.Tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="dforest.h">
+      <Filter>6. RandomForest</Filter>
+    </ClInclude>
+    <ClInclude Include="Wavelet.h">
+      <Filter>7. Wavelet</Filter>
+    </ClInclude>
+    <ClInclude Include="typedef.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DibCv.h">
+      <Filter>0. Dib</Filter>
+    </ClInclude>
+    <ClInclude Include="OpticalFlow.h">
+      <Filter>8. ROISetting</Filter>
+    </ClInclude>
+    <ClInclude Include="Binarization.h">
+      <Filter>1. Binarization</Filter>
+    </ClInclude>
+    <ClInclude Include="MainClass.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="video.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="videoDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Avi.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="RGBBYTE.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GCD.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Dib.cpp">
+      <Filter>0. Dib</Filter>
+    </ClCompile>
+    <ClCompile Include="DibBmp.cpp">
+      <Filter>0. Dib</Filter>
+    </ClCompile>
+    <ClCompile Include="DibColor.cpp">
+      <Filter>0. Dib</Filter>
+    </ClCompile>
+    <ClCompile Include="DibEnhancement.cpp">
+      <Filter>0. Dib</Filter>
+    </ClCompile>
+    <ClCompile Include="Detection.cpp">
+      <Filter>2. Detection</Filter>
+    </ClCompile>
+    <ClCompile Include="Pairing.cpp">
+      <Filter>3. pairing</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Tracker.cpp">
+      <Filter>4.Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Tracking.cpp">
+      <Filter>4.Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomFern.cpp">
+      <Filter>5. RandomFern</Filter>
+    </ClCompile>
+    <ClCompile Include="Matching.cpp">
+      <Filter>4.Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="dforest.cpp">
+      <Filter>6. RandomForest</Filter>
+    </ClCompile>
+    <ClCompile Include="Wavelet.cpp">
+      <Filter>7. Wavelet</Filter>
+    </ClCompile>
+    <ClCompile Include="DibCv.cpp">
+      <Filter>0. Dib</Filter>
+    </ClCompile>
+    <ClCompile Include="OpticalFlow.cpp">
+      <Filter>8. ROISetting</Filter>
+    </ClCompile>
+    <ClCompile Include="Binarization.cpp">
+      <Filter>1. Binarization</Filter>
+    </ClCompile>
+    <ClCompile Include="MainClass.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="video.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\video.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\video.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\highbeam.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\lowbeam.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="highbeam.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="lowbeam.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
